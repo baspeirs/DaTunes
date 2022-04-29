@@ -1,19 +1,15 @@
-#albumCard {
+#artistCard {
     /* width: min(200px, 50%, 50vw); */
     width: 200px;
     margin: auto;
     padding: 2px;
 }
 
-#albumCard:hover {
+#artistCard:hover {
     background-color: rgba(95, 95, 95, 0.647);
 }
 
-#albumCover {
+#artistCover {
     object-fit: contain;
     max-width: 100%;
-}
-
-p {
-    font-size: 12px;
 }

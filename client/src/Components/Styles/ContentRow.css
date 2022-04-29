@@ -1,0 +1,6 @@
+.contentRow {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    border-bottom: solid black;
+}
