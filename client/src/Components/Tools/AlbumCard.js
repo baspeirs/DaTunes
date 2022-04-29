@@ -1,15 +1,14 @@
 import React from "react";
 import '../Styles/AlbumCard.css';
-import Image from '../../Images/KGLW-MindFuzz.jpg'
 
 
-function AlbumCard() {
+
+function AlbumCard(props) {
     return(
         <div id="albumCard">
-            {/* image src and text will be passed through props. this component should be 100% re-useable */}
-            <img src={Image} id="albumCover" alt="Placehoder - King Gizzard and the Lizzard Wizard album"/>
-            <h4>I'm In Your Mind Fuzz</h4>
-            <p>King Gizzard and the Lizzard Wizard</p>
+            <img src={props.imgSrc} id="albumCover" alt={props.imgSrc}/>
+            <h4>{props.album}</h4>
+            <p>{props.artist}</p>
         </div>
     )
 }

@@ -1,14 +1,12 @@
 import React from "react";
 import '../Styles/NavItem.css';
-import headphones from '../../Images/sound-waves.png';
 
 
-function NavItem() {
+function NavItem(props) {
     return(
         <div id="navItem">
-            {/* image src and text will be passed through props. this component should be 100% re-useable */}
-            <img src={headphones} id="headphonesIcon" alt="Music icons created by Freepik - Flaticon"/>
-            <p>I am on the side</p>
+            <img src={props.icon} id="headphonesIcon" alt={props.iconSrc}/>
+            <p>{props.title}</p>
         </div>
     )
 }
