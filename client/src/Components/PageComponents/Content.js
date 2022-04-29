@@ -1,9 +1,14 @@
 import React from "react";
+import AlbumCard from "../Tools/AlbumCard";
+import '../Styles/Content.css';
 
 function Content() {
     return(
-        <div>
-            <p>I am in da middle</p>
+        <div id="mainContent">
+            <AlbumCard />
+            <AlbumCard />
+            <AlbumCard />
+            <AlbumCard />
         </div>
     )
 }

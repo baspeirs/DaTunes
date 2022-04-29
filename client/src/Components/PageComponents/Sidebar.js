@@ -1,10 +1,13 @@
 import React from "react";
 import '../Styles/Sidebar.css';
+import NavItem from '../Tools/NavItem'
 
 function Sidebar() {
     return(
         <div id="sidebar">
-            <p>I am on the side</p>
+            <NavItem />
+            <NavItem />
+            <NavItem />
         </div>
     )
 }

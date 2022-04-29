@@ -1,0 +1,12 @@
+#headphonesIcon {
+    width: 30px;
+    justify-content: center;
+    align-self: center;
+    padding: 2px;
+}
+
+#navItem {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 10px;
+}
