@@ -1,4 +1,6 @@
 #mainContent {
     /* background-image: linear-gradiant(to bottom right,rgb(0, 147, 147), black ); */
     background-image: linear-gradient(to bottom right,black, rgb(0, 147, 147), black);
+    position: relative;
+    height: 100%;
 }

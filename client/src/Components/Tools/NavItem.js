@@ -3,10 +3,10 @@ import '../Styles/NavItem.css';
 
 
 function NavItem(props) {
-    return(
+    return (
         <div id="navItem">
-            <img src={props.icon} id="headphonesIcon" alt={props.iconSrc}/>
-            <p>{props.title}</p>
+                    <img src={props.icon} id="headphonesIcon" alt={props.iconSrc} />
+                    <p>{props.title}</p>
         </div>
     )
 }

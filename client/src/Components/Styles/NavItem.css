@@ -9,4 +9,10 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#navItem:hover {
+    background-color: rgba(95, 95, 95, 0.647);
 }

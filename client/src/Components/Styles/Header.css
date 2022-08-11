@@ -2,4 +2,7 @@ header {
     color:rgb(0, 229, 229);
     border-bottom: solid black;
     height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
